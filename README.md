@@ -5,7 +5,7 @@ Hello All,
 This is my first try at github!
 
 My Github user page is at:
-<a>https://githuub.com/swethamalyavantham/</a>
+<a>https://github.com/swethamalyavantham/</a>
 
 My Github Pages repo can be found at:
 <a>https://github.com/swethamalyavantham/swethamalyavantham.github.io/</a>
