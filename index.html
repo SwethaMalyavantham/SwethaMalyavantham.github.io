@@ -98,21 +98,11 @@
             <h2 class="text-center text-uppercase text-white">About</h2>
             <hr class="star-light mb-5">
             <div class="row">
-                <div class="col-lg-6 ml-auto">
-                    <ul>
-                        <li>Passionate developer with 6+ years of experience with strong problem-solving skills.</li>
-                        <li>Promoted to senior for showing excellence in my commitment, transparency, and passion to drive the team towards greater goals.</li>
-                        <li>Expertise in full software development lifecycle – from concept through delivery of extensible and customizable applications.</li>
-                        <li>Excellent troubleshooting skills – able to analyze code and engineer well-researched, cost-effective, and responsive solutions.</li>
-                    </ul>
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">Effective, team-driven professional offering 6+ years of experience in web application development in health, IT and hospitality industries.</p>
                 </div>
-                <div class="col-lg-6 mr-auto">
-                    <ul>
-                        <li>Received applauds from our Technical Support Team and Implementation team in the way I handle client calls.</li>
-                        <li>Excellent team player in self-organized scrum team.</li>
-                        <li>Believer in lean development which leads to shorter release cycles and effective feedback loops.</li>
-                        <li>Achieved Bachelors of Degree in Electronics & Communication Engineering with 71% from Jawaharlal Nehru and Technological University (JNTU).</li>
-                    </ul>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">Focused and committed with calm demeanor in the most challenging situations. Seeking engaging position to provide top-notch solutions as part of progressive team.</p>
                 </div>
             </div>
             <div class="text-center mt-4">
@@ -154,6 +144,11 @@
                     <label class="btn btn-primary">Onion Architecture</label>
                     <label class="btn btn-primary">MicroServices</label>
                     <label class="btn btn-primary">Multitenant</label>
+                    <label class="btn btn-primary">MSTest</label>
+                    <label class="btn btn-primary">NUnit</label>
+                    <label class="btn btn-primary">OAuth</label>
+                    <label class="btn btn-primary">MVC</label>
+                    <label class="btn btn-primary">Python</label>
                 </div>
             </div>
         </div>
@@ -246,31 +241,104 @@
             </a>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h4 class="text-center mb-0">Auto-Authorization Portal</h4>
-                        <hr class="star-dark mb-4">
-                        <ul class="mb-4">
-                            <li>Reduced time to render Auth-Queue list to less than 2 seconds by optimizing the stored procedure.</li>
-                            <li>Reduced database memory increase by 80%, replacing xml serialization with json.</li>
-                            <li>Refactored legacy code to remove dependencies and implemented unit tests which increased code coverage from 2% to 38%.</li>
-                            <li>Implemented SQL script to de-identify PHI data in database, so that production issues can be reproduced without compromising HIPAA rules.</li>
-                            <li>Implemented Single Page Applications using AngularJS framework to give richer experience in UI for existing webform solutions.</li>
-                            <li>Implemented ability to configure external APIs, which will make the integrations of Portal with different vendor partners easier.</li>
-                            <li>Implemented solutions to support cross-browser compatibility of this product.</li>
-                            <li>Advocated tools like SonarQube and Lucid Chart to ensure best coding practices.</li>
-                            <li>Advocated client side code testing and implemented jasmine tests with karma test runner.</li>
-                            <li>Acted as point of contact to deal with client issues.</li>
-                            <li>Visited client sites along with implementation team to help clients with technical questions and to also demo newer parts of workflow.</li>
-                            <li>Participated actively in lot of interviews to help the company choose right candidates.</li>
-                        </ul>
-                        <h4 class="text-center mb-0">Guideline Transparency</h4>
-                        <hr class="star-dark mb-4">
-                        <ul class="mb-4">
-                            <li>Implemented support for various content versions using factory method pattern.</li>
-                            <li>Implemented source code following Multitenant architecture.</li>
-                            <li>Implemented SQL queries to extract nodes from xml data.</li>
-                            <li>Implemented authentication on one of the microservices using OAuth.</li>
-                        </ul>
+                    <div class="col-lg-12 mx-auto">
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-code fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Design And Development</h5>
+                                <ul>
+                                    <li>Developed the ability to configure and call external APIs which include attachments as input parameters in Rules Engine using C#, AngularJS, XSLT, XML, SQL, REST and so on</li>
+                                    <li>Designed and developed a new UI for Auto-Authorization Portal using MVC, AngularJS, BootStrap, CSS to increase usability which in turn increased provider adoption significantly</li>
+                                    <li>Developed Licensing API - one of the Microservices and its ability to talk to Identity Server using OAuth and OpenId Connect, which can be used company wide</li>
+                                    <li>Developed a console application using C#, SQL, Windows Forms to de-identify PHI data in production db, so that production issues can be easily reproduced without compromising on HIPAA rules</li>
+                                    <li>Created web pages that had a consistent look and met branding initiatives which encouraged more business opportunities with customers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-bug fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Testing</h5>
+                                <ul>
+                                    <li>Refactored legacy code written in C# and made code testable using techniques like Dependency Injection, Pin tests and so on</li>
+                                    <li>Developed unit and integration tests using MSTest and NUnit to improve software quality and reliability</li>
+                                    <li>Advocated client side code testing and implemented unit tests for Auto-Authorization Portal using Jasmine and Karma</li>
+                                    <li>Migrated performance tests from VMs to Azure platform</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fab fa-sketch fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Performance</h5>
+                                <ul>
+                                    <li>Analysed SQL Execution Plan and increased the performance of episode list retrieval by 60%</li>
+                                    <li>Changed the way the data is serialized and stored, that improved the performance of I/O operations on database by 80%</li>
+                                    <li>Recommended and developed new admin portal using C#, HTML5, Bootstrap, MVC and AngularJS for Guideline Transparency which resulted in less turn around time for new and existing customers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">                                
+                                <i class="fas fa-server fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Deployment</h5>
+                                <ul>
+                                    <li>Supported deployments of Guideline Transparency in staging , test and production environments using Octopus and TeamCity</li>
+                                    <li>Advocated and implemented features following lean development which resulted in shorter release cycles and effective feedback loops</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-hands-helping fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Best Practices</h5>
+                                <ul>
+                                    <li>Introduced tools like Lucid Chart to team to have transparency in UI designing</li>
+                                    <li>Advocated tools like SonarQube and processes like TDD to ensure best coding practices</li>
+                                    <li>Created technical workflows and documents in MS Visio and One Note to promote education and training of newly hired employees</li>
+                                    <li>Conducted code reviews and trade-off studies such as What's the oldest browser we can support, Are we HIPAA compliant if our customers are using the unsupported version of browser and so on</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-key fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Problem Solving</h5>
+                                <ul>
+                                    <li>Resolved customer issues by establishing workarounds and solutions and by debugging and creating defect fixes</li>
+                                    <li>Collaborated with internal technology teams and third party partners to define, design and deliver on user stories and customer demand</li>
+                                    <li>Effectively represented team in product road map and strategy meetings that helped product management team to make right decisions</li>
+                                    <li>Organized and held meetings with stakeholders, product teams and customers throughout entire software development life cycle</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-award fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Motivation</h5>
+                                <ul>
+                                    <li>Promoted to Senior Software Developer for showing excellence in my commitment, transparency, and passion to drive the team towards greater goals</li>
+                                    <li>Received applauds from our Technical Support Team and Implementation team in the way I handle client calls</li>
+                                    <li>Received applauds from peers for being an excellent team player</li>
+                                    <li>Visited client sites along with implementation team to help clients with technical questions and to also demo newer parts of workflow</li>
+                                    <li>Conducted interviews to help the company choose right candidates</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="text-center">
                             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                                 <i class="fa fa-close"></i>
@@ -290,17 +358,24 @@
             </a>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h4 class="text-center mb-0">Team – Windows Debug & Diagnostics</h4>
-                        <hr class="star-dark mb-4">
-                        <ul class="mb-4">
-                            <li>Developed website for Server Health Check Tool (Internal Microsoft Tool to display reports on server’s IPAK compliance).</li>
-                            <li>Developed Pivot Reports and Charts using Excel as front end and SQL as data source.</li>
-                            <li>Build various complex TSQL queries for data analysis and extraction. </li>
-                            <li>Derived various tests to check IPAK compliance of server using WMI Queries and Reg Query</li>
-                            <li>Automated table copies using SSIS.</li>
-                            <li>Performed database administration tasks such as data migration.</li>
-                        </ul>
+                    <div class="col-lg-12 mx-auto">
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-database fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Team - Windows Debug And Diagnostics</h5>
+                                <ul>
+                                    <li>Developed website called Server Health Check using C#, ASP.NET, SQL, CSS and HTML which can display reports on server's IPAK compliance.</li>
+                                    <li>Developed Pivot Reports and Charts using MS Excel as front end and SQL as data source.</li>
+                                    <li>Build various complex TSQL queries for data analysis and extraction.</li>
+                                    <li>Derived various tests to check IPAK compliance of server using WMI Queries and Reg Query.</li>
+                                    <li>Automated table copies using SSIS.</li>
+                                    <li>Performed database administration tasks such as data migration.</li>
+                                    <li>Kept project manager informed of milestone updates and provided detailed project report every day.</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="text-center">
                             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                                 <i class="fa fa-close"></i>
@@ -320,17 +395,23 @@
             </a>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h4 class="text-center mb-0">Team - Real Estate and Management Portal</h4>
-                        <hr class="star-dark mb-4">
-                        <ul class="mb-4">
-                            <li>Implemented online reservation and payment system, emailing system, SSL on partial site using for Icicle Creek Chalet Vacation Home </li>
-                            <li>Implemented user-driven ASP.NET web pages for allowing users to input and retrieve accurate information, database-driven web interfaces for rapid, real-time information sharing.</li>
-                            <li>Integrated this web application with pay-pal and VRBO to make sure the reservations and on-line payments are handled in smooth.</li>
-                            <li>Designed and Implemented Data access layer using ADO.NET to connect and retrieve or manipulate database information.</li>
-                            <li>Managed and deployed latest builds to server.</li>
-                            <li>Manually tested the application to ensure product quality.</li>
-                        </ul>
+                    <div class="col-lg-12 mx-auto">
+                        <div class="row mb-1">
+                            <div class="col-1 mr-1">
+                                <i class="fas fa-home fa-2x text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="font-weight-bold mb-3">Team - Real Estate Management Portal</h5>
+                                <ul>
+                                    <li>Implemented a website for vacation home called Icicle Creek Chalet using ASP.NET, C#, JQuery and CSS, so that customer can see its amenities, book online, contact owner.</li>
+                                    <li>Developed a slide show using Visual Studio Blend to showcase vacation home's amenities.</li>
+                                    <li>Implemented the ability to show availability dates on calendar using REST, C# and JSON serialization/deserialization by calling HomeAway's APIs.</li>
+                                    <li>Implemented online payment system using PayPal integration which generated revenue in real time.</li>
+                                    <li>Performed deployments of this website to GoDaddy.</li>
+                                    <li>Designed and Implemented Data access layer using ADO.NET to perform CRUD operations on data.</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="text-center">
                             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                                 <i class="fa fa-close"></i>
